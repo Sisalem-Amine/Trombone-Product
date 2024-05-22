@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+header img{
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+}
+header nav{
+    width: 50%;
+    max-width: 500px;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+main{
+    position: relative;
+    top: 50px;
+}
+
+section{
+    margin: 20px auto;
+    width: 95%;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 10px;
+}
+.email{
+    width: 35%;
+    height: 25px;
+    margin: 0 10px 10px 10px;
+}
+.started{
+    background-color: rgb(255, 188, 43);
+    border: none;
+    width: 120px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.started:hover{
+    background-color: rgb(255, 200, 43);
+}
+
+.Features div{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px auto;
+}
+.Features div i{
+    font-size: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 188, 43);
+}
+.bold{
+    font-size: 1.15rem;
+    font-weight: bold;
+
+}
+#Howitworks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    width: 400px;
+}
+.choise{
+    width: 30%;
+    min-width: 15px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+.choise div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: rgb(216, 216, 216);
+}
+.choise p{
+    font-style: italic;
+    font-size: 1.1rem;
+}
+.choise input{
+    width: 75px;
+    border: none;
+    background-color: rgb(255, 188, 43);
+    font-weight: bold;
+    font-size: 0.85rem;
+    border-radius: 3px;
+}
+#Pricing{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 10px;
+    position: relative;
+    bottom: -50px;
+}
+footer div{
+    width: 30%;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 30px;
+    background: linear-gradient();
+}
+footer p{
+    color: rgba(49, 49, 49, 0.7);
+    margin: 5px 0;
+}
+
+@media (max-width: 450px){
+    html{
+        font-size: 0.8rem;
+    }
+}
